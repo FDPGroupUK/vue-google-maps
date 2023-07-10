@@ -18,7 +18,9 @@ Checkout the docs page for each component to see how to use it.
 [Circle](./circle.md)
 
 [Polygon](./polygon.md)
+
 [Polyline](./polyline.md)
+
 [Rectangle](./rectangle.md)
 
 [Autocomplete](./autocomplete.md)

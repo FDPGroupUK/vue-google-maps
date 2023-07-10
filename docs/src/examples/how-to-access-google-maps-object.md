@@ -8,7 +8,7 @@ To access Google maps object, or do something when map is loaded, use a ref on t
 
 ## Example
 
-```bash
+```vue
 <template>
   <GMapMap
     :center="center"
@@ -76,6 +76,5 @@ body {
   margin: 0;
 }
 </style>
-
 
 ```

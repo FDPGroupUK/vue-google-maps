@@ -1,4 +1,5 @@
 # Rectangle
+
 [[toc]]
 
 ## Add Rectangle to your map
@@ -18,6 +19,7 @@ You can add rectangles to your map using `GMapRectangle` component
     />
   </GMapMap>
 </template>
+
 <script>
 export default {
   name: 'App',
@@ -34,7 +36,6 @@ export default {
   },
 }
 </script>
-
 ```
 
 ## Add custom Rectangle options
@@ -54,6 +55,7 @@ Like almost all components, you can pass all available Google maps rectangle opt
     />
   </GMapMap>
 </template>
+
 <script>
 export default {
   name: 'App',

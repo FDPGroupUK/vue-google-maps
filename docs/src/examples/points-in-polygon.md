@@ -8,8 +8,7 @@
 
 ## Example
 
-```bash
-
+```vue
 // Source of JS implementation: https://github.com/mattwilliamson/Google-Maps-Point-in-Polygon/blob/master/maps.google.polygon.containsLatLng.js
 <template>
   <GMapMap
@@ -73,5 +72,4 @@ export default {
   }
 };
 </script>
-
 ```

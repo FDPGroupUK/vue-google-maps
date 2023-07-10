@@ -1,6 +1,9 @@
 # Cluster
+
 [[toc]]
+
 ## Cluster your markers
+
 To cluster objects you simply wrap your markers with the cluster component.
 
 
@@ -24,6 +27,7 @@ To cluster objects you simply wrap your markers with the cluster component.
     </GMapCluster>
   </GMapMap>
 </template>
+
 <script>
 export default {
   name: 'App',
@@ -45,26 +49,29 @@ export default {
 ```
 
 ## Props
+
 The following props can be passed to control behavior of clusters.
 
 ### minimumClusterSize
 
 Defines the minimum distance of markers to cluster them
 
-``` js
+```js
 :minimumClusterSize="2" 
 ```
 
 ### styles
+
 With styles prop, you can control style and icon of clusters.
 
-``` js
+```js
 :styles="clusterIcon"
 ```
 
 ### zoomOnClick
+
 Defines whether clusters should zoom in, when clicked.
 
-``` js
+```js
 :zoomOnClick="true"
 ```

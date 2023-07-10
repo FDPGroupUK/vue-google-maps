@@ -6,5 +6,4 @@ Currently `Map`, `Marker`, `InfoWindow`, `Polyline`,  `Polygon` and `Rectangle` 
 
 Other components are still under development. 
 
-
 Checkout getting started to read, how to install and use vue-google-maps

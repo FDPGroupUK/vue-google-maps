@@ -1,7 +1,11 @@
 # Circle
+
 [[toc]]
+
 ## Add circle to your maps
+
 To add circles, just add the `GMapCircle` component inside `GMapMap` component.
+
 
 ```vue
 <template>
@@ -21,7 +25,6 @@ To add circles, just add the `GMapCircle` component inside `GMapMap` component.
 </template>
 
 <script>
-
 export default {
   name: 'App',
   data() {
@@ -61,14 +64,15 @@ export default {
 
 Circle style and all other circle options can be added using `options` prop.
 
-
 ```vue
+<template>
 <GMapMap>
     <GMapCircle
         :options="circleOptions" />
 </GMapMap>
-<script>
+</template>
 
+<script>
 export default {
   name: 'App',
   data() {

@@ -17,17 +17,16 @@ You can provide custom map styling by providing `style` property to the `options
 
 You can generate custom map styles at  [https://mapstyle.withgoogle.com/](https://mapstyle.withgoogle.com/)
 ```vue{4}
-<script>
-    <template>
-      <GMapMap :center="center"
-      :options="options"
-       :zoom="10" map-type-id="terrain" style="width: 100vw; height: 20rem">
-        <GMapCluster :zoomOnClick="true">
-          <GMapMarker :key="index" v-for="(m, index) in markers" :position="m.position" :clickable="true" :draggable="true"
-            @click="center = m.position" />
-        </GMapCluster>
-      </GMapMap>
-    </template>
+<template>
+  <GMapMap :center="center"
+  :options="options"
+   :zoom="10" map-type-id="terrain" style="width: 100vw; height: 20rem">
+    <GMapCluster :zoomOnClick="true">
+      <GMapMarker :key="index" v-for="(m, index) in markers" :position="m.position" :clickable="true" :draggable="true"
+        @click="center = m.position" />
+    </GMapCluster>
+  </GMapMap>
+</template>
 
 <script>
   export default {
@@ -54,15 +53,14 @@ You can manage your cloud-based styles on [Google Maps Platform: Map Styles](htt
 [Documentation: Maps JavaScript API - Using Cloud-based maps styling](https://developers.google.com/maps/documentation/javascript/cloud-based-map-styling)
 
 ```vue{4}
-<script>
-    <template>
-      <GMapMap :center="center"
-      :options="options"
-       :zoom="10"
-       map-type-id="terrain"
-       style="width: 100vw; height: 20rem">
-      </GMapMap>
-    </template>
+<template>
+  <GMapMap :center="center"
+  :options="options"
+   :zoom="10"
+   map-type-id="terrain"
+   style="width: 100vw; height: 20rem">
+  </GMapMap>
+</template>
 
 <script>
   export default {
@@ -79,7 +77,9 @@ You can manage your cloud-based styles on [Google Maps Platform: Map Styles](htt
 ```
 
 ## Disable ui elements
+
 You can disable all ui components at once
+
 ```vue{4}
   <GMapMap
     :center="{lat: 51.093048, lng: 6.842120}"
@@ -94,18 +94,19 @@ You can also disable specific UI components
     :center="{lat: 51.093048, lng: 6.842120}"
     :zoom="7"
     :options="{
-                      zoomControl: true,
-                      mapTypeControl: true,
-                      scaleControl: true,
-                      streetViewControl: true,
-                      rotateControl: true,
-                      fullscreenControl: true,
-                }"
+      zoomControl: true,
+      mapTypeControl: true,
+      scaleControl: true,
+      streetViewControl: true,
+      rotateControl: true,
+      fullscreenControl: true,
+    }"
   />
 ```
 
 
 ## Access google maps instance
+
 You can easily access Map instance by accessing map ref in your component.
 
 ```vue
@@ -129,6 +130,7 @@ You can use the map instance to add custom buttons to your map.
       :disableDefaultUI="true"
   />
 </template>
+
 <script >
 import { ref, watch } from "vue";
 

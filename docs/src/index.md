@@ -19,7 +19,7 @@ href="https://stackblitz.com/edit/vue-google-maps-marker?file=src%2Fcomponents%2
 
 ## Installation
 You can install it using npm
-```
+```bash
 npm install -S @fawmi/vue-google-maps
 ```
 

@@ -1,8 +1,11 @@
 # Marker
+
 [[toc]]
 
 ## Add marker to your components
+
 With a marker, you can show specific locations on the map
+
 ```vue
 <template>
   <GMapMap>
@@ -12,6 +15,7 @@ With a marker, you can show specific locations on the map
     />
   </GMapMap>
 </template>
+
 <script>
 export default {
   name: 'App',
@@ -28,10 +32,10 @@ export default {
   },
 }
 </script>
-
 ```
 
 ## Enable/Disable events
+
 You can enable or disable map events by passing props.
 
 ```vue{9,10}
@@ -51,6 +55,7 @@ You can enable or disable map events by passing props.
 ```
 
 ## Register events
+
 You can register events like click, the same as you do in your vue components
 
 ```vue{9}
@@ -70,7 +75,9 @@ You can register events like click, the same as you do in your vue components
 ```
 
 ## Add custom icon
+
 To use custom icon, pass `:icon` prop. You can pass a local resource or an image from internet.
+
 ```vue{9}
 <template>
   <GMapMap

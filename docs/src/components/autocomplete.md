@@ -1,12 +1,12 @@
-
 # Autocomplete
+
 [[toc]]
 
+## Load Google maps places
 
-## Load Google maps places 
 Before using Autocomplete, you should load the places library. 
 
-```vue{5}
+```js{5}
 createApp(App)
   .use(VueGoogleMaps, {
     load: {
@@ -15,12 +15,12 @@ createApp(App)
     }
   })
   .mount("#app");
-</script>
 ```
 
-
 ## Add autocomplete to your components
+
 You can add autocomplete to your maps using GMapAutocomplete component. 
+
 ```vue
 <template>
   <GMapAutocomplete
@@ -29,6 +29,7 @@ You can add autocomplete to your maps using GMapAutocomplete component.
     >
   </GMapAutocomplete>
 </template>
+
 <script>
 export default {
   name: 'App',
@@ -42,13 +43,13 @@ export default {
   }
 }
 </script>
-
 ```
 
 ## Custom options
+
 You can pass google maps auto complete options using options prop
 
-```vue{9}
+```vue{4-7}
 <template>
     <GMapAutocomplete
         placeholder="This is a placeholder"

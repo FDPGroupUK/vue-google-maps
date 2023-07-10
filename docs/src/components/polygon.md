@@ -17,6 +17,7 @@ You can add polygons to the map using polygon component.
     />
   </GMapMap>
 </template>
+
 <script>
 export default {
   name: 'App',
@@ -44,6 +45,7 @@ You can set polygon style and other options using `options` prop.
     <GMapPolygon :paths="paths"/>
   </GMapMap>
 </template>
+
 <script>
 export default {
   name: 'App',

@@ -12,6 +12,7 @@ You can add Polyline to the map using `GMapPolyline` component.
       :editable="true"
       ref="polyline" />
 </template>
+
 <script>
 export default {
   name: 'App',
@@ -29,6 +30,7 @@ export default {
 ```
 
 ## Make polyline editable 
+
 You can make Polyline editable using `editable` prop.
 
 ```vue
@@ -39,6 +41,7 @@ You can make Polyline editable using `editable` prop.
         :paths="paths"/>
   </GMapMap>
 </template>
+
 <script>
 export default {
   name: 'App',
@@ -59,6 +62,7 @@ You can set Polyline options using `options` prop.
     <GMapPolygon :paths="paths"/>
   </GMapMap>
 </template>
+
 <script>
 export default {
   name: 'App',

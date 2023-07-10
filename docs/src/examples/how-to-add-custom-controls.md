@@ -8,7 +8,7 @@ To add custom controls, you can access google maps object and add controls to it
 
 ## Example
 
-```bash
+```vue
 <template>
   <GMapMap
     :center="center"
